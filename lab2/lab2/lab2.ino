@@ -1,9 +1,5 @@
-// Видеообзоры и уроки работы с ARDUINO на YouTube-канале IOMOIO: https://www.youtube.com/channel/UCmNXABaTjX_iKH28TTJpiqA
-
-#include <CustomStepper.h>            // Подключаем библиотеку управления шаговым двигателем. По умолчанию настроена на двигатель 28BYJ-48-5V
-CustomStepper eng(8, 9, 10, 11);  // Указываем пины, к которым подключен драйвер шагового двигателя
-
-int example = 1;                      // Переменная для демонстрации работы, отвечающая за смену режимов
+#include <CustomStepper.h>            // Подключаем библиотеку управления шаговым двигателем 28BYJ-48-5V
+CustomStepper eng(8, 9, 10, 11);  // Указываем пины
 
 void setup()
 {
